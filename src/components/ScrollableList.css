@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+#list-scroll {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-70%);
+}
+.acc-list {
+  width: 625px;
+  border-radius: 26px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.acc-lists-content {
+  width: 625px;
+  height: 464px;
+  overflow-y: scroll;
+  background: #fff;
+  border-radius: 0 0 26px 26px;
+}
+.sel-heading {
+  font-size: xx-large;
+  font-weight: bold;
+  color: #393939;
+  background: #f6f6f6;
+  margin: 0px;
+  padding: 35px 158px;
+  border-radius: 26px 26px 0 0;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: darkgray #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}

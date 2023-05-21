@@ -1,0 +1,112 @@
+.content> div {
+    padding: 14px 0 19px 0;
+    border-bottom: 1px solid c7c5c5;
+}
+.profile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0 16px 0;
+    border-bottom: 1px solid #c7c5c5;
+}
+.logout-dropdown {
+    display: flex;
+    align-items: center;
+    transform: translateX(450px);
+    width: 206px;
+}
+.logout-pic {
+    height: 37px;
+    border-radius: 25px;
+}
+.logout-name {
+    width: 518px;
+    padding-left: 12px;
+    font-size: larger;
+    color: #656464;
+}
+.profile-wrapper {
+    margin-top: 38px;
+    display: flex;
+    height: 77vh;
+    color: #5b5b5b;
+    line-height: 35px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.profile-details {
+    width: 19vw;
+    text-align-last: center;
+    padding: 0 50px;
+}
+img.profile-details-pic {
+    height: 200px;
+    border-radius: 101px;
+}
+.profile-address {
+    padding-left: 46px;
+    width: 41vw;
+    border-left: 1px solid #c7c5c5;
+}
+.user-details {
+    text-align-last: center;
+    border-bottom: 1px solid #c7c5c5;
+}
+.detail-title {
+    color: #9a9a9a;
+    font-weight: 200 !important;
+}
+.profile-nav> h2 {
+    color: #5b5b5b;
+}
+.profile-address .detail-title {
+    margin-left: 47px;
+}
+img.map-pic {
+    width: 37vw;
+
+    height: 41vh;
+    margin-top: 6px;
+}
+.geo-location {
+    width: 332px;
+    font-size: small;
+    text-align-last: end;
+    margin-left: auto;
+    margin-top: -17px;
+}
+.dropdown-content {
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 19vw;
+    transform: translate(-15vw, 3vh);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid darkgray;
+    padding: 8px;
+
+  }
+  
+  .dropdown-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-content li {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .logOut-btn {
+    height: 40px;
+    color: white;
+    background: #d55151;
+    width: 100px;
+    border-radius: 28px;
+    text-align: center;
+    font-size: medium;
+}

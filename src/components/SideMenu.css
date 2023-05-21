@@ -1,0 +1,20 @@
+.side-menu {
+    background: linear-gradient(177deg, #375BC8, #5F3AC8);
+    border-radius: 26px;
+    height: 90vh;
+    width: 18vw;
+    color: lightgray;
+}
+.menu-options {
+    transform: translateY(30vh);
+}
+.menu-options> h3 {
+    padding: 20px 0;
+    border-bottom: 1px solid lightgray;
+    width: 197px;
+    margin: 0 auto;
+}
+.side-menu .menu-options h3.active {
+    font-size: larger;
+    color: #fff;
+  }

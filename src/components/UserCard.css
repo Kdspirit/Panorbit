@@ -1,0 +1,18 @@
+.user-card {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid darkgray;
+  margin: 0 auto;
+  width: 548px;
+  height: 58px;
+}
+.user-name {
+  width: 518px;
+  padding: 18px;
+  font-size: larger;
+  color: #656464;
+}
+.profile-pic {
+  height: 37px;
+  border-radius: 25px;
+}
